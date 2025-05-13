@@ -1,2 +1,8 @@
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; padding-top: 15px;}
     .attribution a { color: hsl(228, 45%, 44%); }
+    .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif;}
+    /* This class - tag shortcut really does wonders when saving time!! */
+    @font-face {
+        font-family: 'Barlow Semi Condensed';
+        src: url('https://fonts.google.com/specimen/Barlow+Semi+Condensed'),format('woff');
+    }
