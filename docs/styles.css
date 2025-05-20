@@ -1,6 +1,6 @@
     .attribution { font-size: 11px; text-align: center; padding-top: 15px;}
     .attribution a { color: hsl(228, 45%, 44%); }
-    .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); margin-top: 20px;}
+    .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif; box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.2); margin-top: 20px; padding: 30px;}
     /* This class - tag shortcut really does wonders when saving time!! */
     @font-face {
         font-family: 'Barlow Semi Condensed';
