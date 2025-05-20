@@ -1,8 +1,11 @@
     .attribution { font-size: 11px; text-align: center; padding-top: 15px;}
     .attribution a { color: hsl(228, 45%, 44%); }
-    .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif;}
+    .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); margin-top: 20px;}
     /* This class - tag shortcut really does wonders when saving time!! */
     @font-face {
         font-family: 'Barlow Semi Condensed';
         src: url('https://fonts.google.com/specimen/Barlow+Semi+Condensed'),format('woff');
     }
+
+    /* .shadow div {box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}  */
+    /* This means that for every div, a shadow is applied */
