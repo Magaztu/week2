@@ -20,8 +20,8 @@ The designs were created to the following widths:
 ### Neutral
 
 - White: rgb(255, 255, 255)
-- Grey 100: hsl(214, 17%, 92%)
-- Grey 200: hsl(0, 0%, 81%)
+- Grey 100: rgb(231, 234, 238)
+- Grey 200: rgb(207, 207, 207)
 - Grey 400: rgb(103, 109, 126)
 - Grey 500: rgb(72, 85, 106)
 - Dark blue: rgb(25, 33, 46)
