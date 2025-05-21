@@ -2,10 +2,10 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     .border-er {display: grid; gap: 30px; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; margin: 100px;
     grid-template-areas: "b1 b1 b2 b5" "b3 b4 b4 b5";}
-    .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif; box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.2); margin-top: 20px; padding: 30px; width: fit-content; height: fit-content;}
+    .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif; box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.2); padding: 30px;}
     /* This class - tag shortcut really does wonders when saving time!! */
     .border-er p {font-size: small; font-weight: 100;}
-    .border-er h4 {font-size: large; font-weight: 600;}
+    .border-er h4 {font-size: x-large; font-weight: 600;}
     @font-face {
         font-family: 'Barlow Semi Condensed';
         src: url('https://fonts.google.com/specimen/Barlow+Semi+Condensed'),format('woff');
