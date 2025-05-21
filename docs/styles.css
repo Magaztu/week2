@@ -1,6 +1,7 @@
     .attribution { font-size: 11px; text-align: center; padding-top: 15px;}
     .attribution a { color: hsl(228, 45%, 44%); }
-    .border-er {display: flex; flex-direction: row; gap: 30px;}
+    .border-er {display: grid; gap: 30px; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; margin: 100px;
+    grid-template-areas: "b1 b1 b2 b5" "b3 b4 b4 b5";}
     .border-er div {border: 2px; border-radius: 10px; font-family: 'Barlow Semi Condensed', sans-serif; box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.2); margin-top: 20px; padding: 30px; width: fit-content; height: fit-content;}
     /* This class - tag shortcut really does wonders when saving time!! */
     .border-er p {font-size: small; font-weight: 100;}
@@ -10,7 +11,7 @@
         src: url('https://fonts.google.com/specimen/Barlow+Semi+Condensed'),format('woff');
     }
     @media (max-width: 768px) {
-    .border-er {flex-direction: column; }
+    .border-er {display: flex; flex-direction: column;}
     }
     /*Another rule!! this one stacks the items vertically on devices within certain width threshold*/
     /* You can also put classes inside a rule to apply them*/
@@ -19,8 +20,8 @@
     /* This means that for every div, a shadow is applied */
 
     /* IDs!! */
-    #Daniel-box {background-color: rgb(117, 65, 200); color: rgb(238, 229, 255); grid-area: 1;}
-    #Jonathan-box{}
-    #Jeanette-box{}
-    #Patrick-box{}
-    Kira-box{}
+    #Daniel-box {background-color: rgb(117, 65, 200); color: rgb(238, 229, 255); grid-area: b1;}
+    #Jonathan-box {background-color: rgb(72, 85, 106); color: rgb(231, 234, 238);  grid-area: b2;}
+    #Jeanette-box {background-color: rgb(255, 255, 255); color: rgb(103, 109, 126); grid-area: b3;}
+    #Patrick-box {background-color: rgb(25, 33, 46); color: rgb(207, 207, 207); grid-area: b4;}
+    #Kira-box {background-color: #ffffff; color: rgb(103, 109, 126); grid-area: b5;}
