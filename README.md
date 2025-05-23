@@ -17,7 +17,7 @@ It was a really fun one, and I think I really nailed the design once again.
 
 
 
-
+    Yes, I'm mindul of that typo you're thinking about
 
 
 
