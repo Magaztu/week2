@@ -18,6 +18,9 @@
     .subtitle {font-size: small; font-weight: 100;}
     /* .shadow div {box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}  */
     /* This means that for every div, a shadow is applied */
+    .aligner {display: flex;}
+    .pfp {size: 10px;}
+    /* .header {} */
 
     /* IDs!! */
     #Daniel-box {background-color: rgb(117, 65, 200); color: rgb(238, 229, 255); grid-area: b1;}
