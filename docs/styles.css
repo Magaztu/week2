@@ -18,8 +18,8 @@
     .subtitle {font-size: small; font-weight: 100;}
     /* .shadow div {box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}  */
     /* This means that for every div, a shadow is applied */
-    .aligner {display: flex;}
-    .pfp {size: 10px;}
+    .aligner {display: flex; gap: 20px;}
+    .pfp {border-radius: 50px; width: 36px; height: 36px;}
     /* .header {} */
 
     /* IDs!! */
@@ -33,3 +33,5 @@
     #Jonathan-box p {padding-right: 25px;}
     #Patrick-box p {padding-right: 20px;}
     #Daniel-box p {padding-right: 20px;}
+    #Daniel-box .pfp {border: solid; border-color: rgb(196, 162, 246); border-width: 3px;}
+    #Patrick-box .pfp {border: solid; border-color: rgb(117, 65, 200); border-width: 3px;}

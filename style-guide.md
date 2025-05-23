@@ -14,7 +14,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Purple 50: rgb(238, 229, 255)
-- Purple 300: hsl(264, 82%, 80%)
+- Purple 300: rgb(196, 162, 246)
 - Purple 500: rgb(117, 65, 200)
 
 ### Neutral
