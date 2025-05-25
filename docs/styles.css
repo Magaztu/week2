@@ -31,11 +31,11 @@
     #Patrick-box {background-color: rgb(25, 33, 46); color: rgb(207, 207, 207); grid-area: b4;}
     #Kira-box {background-color: #ffffff; color: rgb(103, 109, 126); grid-area: b5;}
     #Kira-box p {padding-right: 21px; line-height: 145%;}  
-    #Jeanette-box h4 {padding-right: 38px;}
+    #Jeanette-box h4 {padding-right: 38px;line-height: 135%;}
     #Jonathan-box p {padding-right: 25px;}
-    #Patrick-box p {padding-right: 20px;}
+    #Patrick-box p {padding-right: 20px;line-height: 135%;}
     #Daniel-box p {padding-right: 20px;}
     #Daniel-box .pfp {border: solid; border-color: rgb(196, 162, 246); border-width: 3px;}
     #Patrick-box .pfp {border: solid; border-color: rgb(117, 65, 200); border-width: 3px;}
-    #quote-image {z-index: 0; position: absolute; margin-left: 419px; top: 100px;}
+    #quote-image {z-index: 0; position: absolute; margin-left: 420px; top: 100px;}
     #daniel-content {z-index: 1; position: relative;}
